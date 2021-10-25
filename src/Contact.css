@@ -37,7 +37,7 @@
 
 .con-title {
     height: 50%;
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     /* border: 1px solid blue; */
@@ -45,8 +45,8 @@
 
 .links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 50%;
     width: 100%;
@@ -59,6 +59,23 @@
 }
 
 .email {
+    font-size: 3rem;
+    color: rgb(36,33,35);
+    text-shadow: -1px -1px 0 rgb(71,209,204), 1px -1px 0 rgb(71,209,204), -1px 1px 0 rgb(71,209,204), 1px 1px 0 rgb(71,209,204);
+}
+
+@media (max-width: 680px) {
+  .email {
     font-size: 2rem;
-    color: white;
+  }
+}
+
+@media (max-width: 450px) {
+  .email {
+    font-size: 1.5rem;
+  }
+
+  .con {
+    font-size: 1.8em;
+  }
 }

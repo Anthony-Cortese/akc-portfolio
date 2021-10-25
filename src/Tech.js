@@ -20,108 +20,44 @@ function Tech() {
       </div>
       <div className="language">
         <div className="frontend">
-          {/* <div className="be-img">
-            <img
-              className="be-i"
-              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
-              border="0"
-              alt="Group-1"
-            />
-          </div> */}
-          <h3 className="tech-font">Front-End</h3>
-          <ul className="fe-tech">
-            <span>
-              <li>Javascript</li>
-            </span>
-            <span>
-              <li>React JS</li>
-            </span>
-            <span>
-              <li>HTML(5)</li>
-            </span>
-            <span>
-              <li>Redux</li>
-            </span>
-            <span>
-              <li>CSS(3)</li>
-            </span>
-            <span>
-              <li>Tailwind CSS</li>
+          <span className="tech">Javascript</span>
+          <span className="tech">React JS</span>
+          <span className="tech">HTML(5)</span>
+          <span className="tech">Redux</span>
+          <span className="tech">CSS(3)</span>
+          {/* <span>
+              Tailwind CSS</li>
             </span>
             <span>
               <li>Bootstrap(4)</li>
             </span>
             <span>
               <li>Jest</li>
-            </span>
-            {/* <li>React Testing Library</li> */}
-            <li>Cypress</li>
-          </ul>
+            </span> */}
+          {/* <li>React Testing Library</li> */}
+          {/* <li>Cypress</li> */}
         </div>
         <div className="backend">
-          {/* <div className="be-img">
-            <img
-              className="be-i"
-              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
-              border="0"
-              alt="Group-1"
-            />
-          </div> */}
-          <h3 className="tech-font">Back-end</h3>
-          <ul className="be-tech">
-            <li>Express</li>
-            <li>Node JS</li>
-            <li>Python</li>
-            <li>Firebase</li>
-            {/* <li>Restful Web Services</li> */}
-            <li>Api | Ajax</li>
+          <span className="tech">Express</span>
+          <span className="tech">Node JS</span>
+          <span className="tech">Python</span>
+          <span className="tech">PostgreSQL</span>
+          {/* <li>Restful Web Services</li> */}
+          {/* <li>Api | Ajax</li>
             <li>CRUD</li>
             <li>Knex</li>
-            <li>SQL</li>
-            <li>SQLite(3)</li>
-          </ul>
+            <li>SQL</li> */}
+          <span className="tech">SQLite(3)</span>
         </div>
-
         <div className="design">
-          {/* <div className="be-img">
-            <img
-              className="be-i2"
-              src="https://i.postimg.cc/SRGT0DLX/Group-1.png"
-              border="0"
-              alt="Group-1"
-            />
-          </div> */}
-          <h3 className="tech-font">Design</h3>
-          <ul className="tools-tech">
-            <li>Adobe Premiere Pro</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe XD</li>
-            <li>Figma</li>
-            <li>Whimsical</li>
-            {/* <li>Docker</li>
-            <li>Agile Workflow</li> */}
-          </ul>
-        </div>
-        <div className="tools">
-          {/* <div className="be-img">
-            <img
-              className="be-i"
-              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
-              border="0"
-              alt="Group-1"
-            />
-          </div> */}
-          <h3 className="tech-font">Tools</h3>
-          <ul className="tools-tech">
-            <li>Github</li>
-            <li>Postman</li>
-            <li>npm</li>
-            <li>Trello</li>
-            {/* <li>Slack</li> */}
-            <li>Docker</li>
-            <li>Agile Workflow</li>
-          </ul>
+          <span className="tech">Premiere Pro</span>
+          <span className="tech">Photoshop</span>
+          <span className="tech">Illustrator</span>
+          <span className="tech">XD</span>
+          <span className="tech">Figma</span>
+          <span className="tech">Whimsical</span>
+          {/* <li>Docker</li> */}
+          {/* <li>Agile Workflow</li> */}
         </div>
       </div>
     </section>

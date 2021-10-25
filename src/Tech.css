@@ -1,5 +1,5 @@
 #tech {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -23,7 +23,7 @@
 }
 .t-projects {
     font-family: "Lato", sans-serif;
-    font-size: 8em;
+    font-size: 7em;
     padding:3px;
     /* padding: 2rem; */
     /* justify-content: space-between; */
@@ -50,28 +50,56 @@
 }
 
   .frontend {
-      height: 90%;
-      width: 14%;
-      box-shadow: -3px -3px 0 rgb(71,209,204), 3px -3px 0 rgb(71,209,204), -3px 3px 0 rgb(71,209,204), 3px 3px 0 rgb(71,209,204);
+      height: 20%;
+      width: 80%;
+      /* box-shadow: -3px -3px 0 rgb(71,209,204), 3px -3px 0 rgb(71,209,204), -3px 3px 0 rgb(71,209,204), 3px 3px 0 rgb(71,209,204); */
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: space-between;
       align-items: center;
-      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-      animation: neon 3s linear infinite;
+      /* box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+      animation: neon 3s linear infinite; */
+}
+
+.backend {
+  height: 20%;
+  width: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  animation: neon 3s linear infinite; */
 }
 
 .fe-tech {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  padding: 8px;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.6rem;
+  color: white;
+  padding: 8px;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  animation: neon 3s linear infinite;
 }
 
 @keyframes neon {
   50% {
     opacity: 1;
   }
+}
+
+.tech:hover {
+  background-color: rgb(36,33,35);
 }
 
 
@@ -107,16 +135,14 @@
   }
 }
 
-.backend {
-    height: 90%;
-    width: 14%;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-      animation: neon 3s linear infinite;
+
+
+.be-tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 @keyframes neon {
@@ -126,20 +152,31 @@
 }
 
 .design {
-    height: 90%;
-    width: 14%;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
-      animation: neon 3s linear infinite;
+  height: 20%;
+  width: 80%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tools-tech {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @keyframes neon {
   50% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 850px) {
+  .tech {
+    font-size: 1.2rem;
   }
 }
 
@@ -150,4 +187,29 @@
   .t-projects {
     font-size: 4rem;
 }
+.tech {
+  font-size: 1rem;
+}
+}
+
+@media (max-width: 600px) {
+  .tech {
+    font-size: .75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .tech {
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .tech {
+    font-size: .4rem;
+  }
+
+  .t-projects {
+    font-size: 2.5rem;
+  }
 }
