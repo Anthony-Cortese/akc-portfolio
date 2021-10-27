@@ -105,15 +105,13 @@ function Projects() {
         </div>
         <div className="family-info">
           <h1 className="fp-text">AKC's Movie Database</h1>
-          <a className="Link2" href="https://akc-moviedatabase.netlify.app/">
-            <span className="Link-title2">
-              This was the first project I personally built out on my own. I
-              used two different API's to get the correct information I wanted
-              for my movie database. You are able to search for any movie title,
-              and you will recieve the release date, rating, and the plot based
-              on that movie!
-            </span>
-          </a>
+          <span className="Link-title2">
+            This was the first project I personally built out on my own. I used
+            two different API's to get the correct information I wanted for my
+            movie database. You are able to search for any movie title, and you
+            will recieve the release date, rating, and the plot based on that
+            movie!
+          </span>
           <div className="view">
             <a href="https://github.com/Anthony-Cortese/AKC-Movie-Database">
               <AiFillGithub className="icons" />{" "}

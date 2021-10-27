@@ -9,10 +9,6 @@
     justify-content: center;
     align-items: center;
 }
-.main-nav {
-    
-    /* justify-content: space-around; */
-}
 
 .nav-img {
   /* border: 1px solid black; */
@@ -75,13 +71,9 @@
 
 nav {
     padding: 14.5px;
-    /* text-decoration: none; */
+    text-decoration: none;
+    color:rgb(71,209,204); 
 }
-nav { text-decoration: none; color:rgb(71,209,204); }
-nav:visited { text-decoration: none; }
-nav:hover { text-decoration: none; }
-nav:focus { text-decoration: none; }
-nav:hover, nav:active { text-decoration: none; }
 
 .icons {
     font-size: 38px;
