@@ -58,7 +58,7 @@ function Home() {
       </div>
       <div className="name-info">
         <h4 className="my-name">
-          I'm Anthony Cortese a Frontend Web Developer based in Provo, UT
+          I'm Anthony Cortese a Full-Stack Web Developer based in Provo, UT
         </h4>
       </div>
       {/* <div className="akc-div">
