@@ -18,6 +18,38 @@ function Projects() {
         <h1 className="h-projects">S</h1>
       </div>
 
+      <div className="family-promise1">
+        <div className="movie-div">
+          <img
+            className="data-img"
+            src="https://i.postimg.cc/gkJ3XK9J/Screen-Shot-2021-11-09-at-2-54-42-AM.png"
+            border="0"
+            alt="Screen-Shot-2021-11-09-at-2-54-42-AM"
+          />
+        </div>
+        <div className="family-info">
+          <h1 className="fp-text">Lucky Penny</h1>
+          <span className="Link-title2">
+            Implemented with React and drawing data from a third-party API,
+            Lucky Penny connects users with a penny selected to bring them luck!
+            After arrival at the landing page, users select a month/day
+            combination and are directed to a page where they can access events
+            and births from their selection. After specifying a year, the user
+            is taken to a page where they can learn all about the penny minted
+            in that year and can optionally choose to purchase their very own
+            lucky penny.
+          </span>
+          <div className="view">
+            <a href="https://github.com/Tony-Naj/Lucky-Penny">
+              <AiFillGithub className="icons" />{" "}
+            </a>
+            <a href="https://lucky-penny.netlify.app/">
+              <CgScreen className="icons" />{" "}
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="imdb">
         <div className="imdb-img-div">
           <img
@@ -28,18 +60,21 @@ function Projects() {
           />
         </div>
         <div className="imdb-info">
-          <h1 className="clone">IMDb Clone</h1>
+          <h1 className="clone">AKC-IMDb</h1>
           {/* <a className="Link" href="https://akc-imdb.netlify.app/"> */}
           <span className="Link-title">
-            IMDb is my favorite website that I use daily, so I decided to build
-            it out from scratch which you could call "my version". The website
-            has a fully functional navigation bar, each button will take you to
-            a new page. The play buttons will bring up a trailer on click, and
-            on the IMDbTV page will do the same if you click on the movie
-            poster. The website is fully responsive, and with a horizontal
-            scroll the images will change-- and a final fun fact on the Coming
-            Soon To Theatres section are 3 short films that I have personally
-            directed!
+            Built fully with React and CSS, I created my own version of the IMDb
+            website from scratch sprinkling in some of my favorite films and
+            celebrities from the entertainment world. This website has a fully
+            functional navigation bar, where each button will take you to a new
+            completely fleshed out page on the application. The play buttons on
+            the homepage will light up yellow on hover, and with a click will
+            open up a trailer as a modal. On the IMDBtv page, and using a
+            third-party API, users are able to navagate through various new
+            release films based on their favorite genres and are able to see a
+            trailer by clicking on a movie poster! This is a fully responsive
+            web application and a final fun fact on the Coming Soon To Theatres
+            section there are 3 short films that I personally directed!
           </span>
           {/* </a> */}
           <div className="screen">
@@ -88,35 +123,6 @@ function Projects() {
               <CgFigma className="icons" />{" "}
             </a>{" "}
             <a href="www.familypromise.com">
-              <CgScreen className="icons" />{" "}
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="family-promise1">
-        <div className="movie-div">
-          <img
-            className="data-img"
-            src="https://i.postimg.cc/Vvj16mNH/Screen-Shot-2021-10-12-at-12-08-58-AM.png"
-            border="0"
-            alt="Screen-Shot-2021-10-12-at-12-08-58-AM"
-          />
-        </div>
-        <div className="family-info">
-          <h1 className="fp-text">AKC's Movie Database</h1>
-          <span className="Link-title2">
-            This was the first project I personally built out on my own. I used
-            two different API's to get the correct information I wanted for my
-            movie database. You are able to search for any movie title, and you
-            will recieve the release date, rating, and the plot based on that
-            movie!
-          </span>
-          <div className="view">
-            <a href="https://github.com/Anthony-Cortese/AKC-Movie-Database">
-              <AiFillGithub className="icons" />{" "}
-            </a>
-            <a href="https://akc-moviedatabase.netlify.app/">
               <CgScreen className="icons" />{" "}
             </a>
           </div>

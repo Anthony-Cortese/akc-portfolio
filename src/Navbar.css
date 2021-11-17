@@ -85,6 +85,10 @@ nav {
     color: rgb(71,209,204);
 }
 
+a {
+  text-decoration: none;
+}
+
 /* @media (max-width: 760px) {
   .nav-links {
     font-size: 16px;

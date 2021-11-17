@@ -266,6 +266,11 @@
   .h-projects {
     font-size: 5rem;
 }
+
+.movie-div {
+  width: 80%;
+  height: 45%;
+}
 }
 
 @media (max-width: 650px) {
